@@ -21,7 +21,7 @@ html , body{
    top: 50%;
   left: 50%;
   transform: translate(-50%,-50%); 
-  height: 65vh;
+  height: 80vh;
   width: 30%;
   border-radius: 10px;
   border-radius: 50px;
@@ -42,6 +42,7 @@ h1{
   font-size: 1.35vw;
   margin-top: 4vh;
   margin-left: 2.5vw;
+  height: 8vh;
 }
 
 .question{
@@ -51,6 +52,13 @@ h1{
   margin-left: 1.2vw;
 }
 
+hr{
+  height: 2px;
+  border: none;
+  background: #707070;
+  width: 70%;
+  margin-left: 15%;
+}
 
 
 button{
@@ -91,4 +99,15 @@ button:hover{
 
 #prev{
   background-color: red;
+}
+
+
+.correct{
+  background-color: #00d397;
+  background: #dffff2;
+}
+
+.wrong{
+  background-color: #ff4b4b;
+  background: #ffe8e8;
 }
